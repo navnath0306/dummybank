@@ -23,7 +23,7 @@ public class DummyBankController {
 		AuthorizeResponse authorizeResponse = new AuthorizeResponse();
 		authorizeResponse.setMessage("Response from dummy bank");
 		authorizeResponse.setResponseCode(00l);
-		authorizeResponse.setStatus("00");
+		authorizeResponse.setStatus("Approved");
 		authorizeResponse.setTransactionId("123456");
 		
 		ResponseDetails responseDetails = new ResponseDetails();
